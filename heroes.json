@@ -1,5 +1,30 @@
 {
-  "heroes": [],
+  "heroes": [
+    {
+      "id": "4f5defba-e048-4202-a3a7-0d07312a7fbb",
+      "name": "Огоникус",
+      "description": "Кидать фаерболы",
+      "element": "fire"
+    },
+    {
+      "id": "663e891d-026b-4c8f-89af-7de1159350f7",
+      "name": "Аанг",
+      "description": "Маг ветра",
+      "element": "wind"
+    },
+    {
+      "id": "fa060e59-243c-41dd-8f1b-f69a53c60369",
+      "name": "Катара",
+      "description": "Маг воды",
+      "element": "water"
+    },
+    {
+      "id": "e51d2b7e-1841-4023-a3d8-caf3dc41c701",
+      "name": "Топотус",
+      "description": "Выпускаю шипы из земли и строю стены",
+      "element": "earth"
+    }
+  ],
   "filters": [
     {
       "id": "all",

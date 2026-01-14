@@ -4,13 +4,13 @@ import classNames from "classnames";
 
 import { activeFilterChanged, fetchFilters, selectAll } from "./filtersSlice";
 import Spinner from "../spinner/Spinner";
-import store from "../../store";
+
 
 const HeroesFilters = () => {
 	const { filtersLoadingStatus, activeFilter } = useSelector(
 		(state) => state.filters
 	);
-	const filters = selectAll(store.getState());
+	const filters = useSelector(selectAll);
 	const dispatch = useDispatch();
 
 	useEffect(() => {
