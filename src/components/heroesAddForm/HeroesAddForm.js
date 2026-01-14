@@ -40,21 +40,23 @@ const HeroesAddForm = () => {
 	const renderFilters = (filters, status) => {
 		if (status === "loading") {
 			return <option>Загрузка элементов</option>;
-		} else if (status === "error") {
+		}
+
+		if (status === "error") {
 			return <option>Ошибка загрузки</option>;
 		}
 
 		if (filters && filters.length > 0) {
-			return filters.map(({ name, label }) => {
-				if (name === "all") return;
-
-				return (
+			return filters
+				.filter(({ name }) => name !== "all")
+				.map(({ name, label }) => (
 					<option key={name} value={name}>
 						{label}
 					</option>
-				);
-			});
+				));
 		}
+
+		return null;
 	};
 
 	return (

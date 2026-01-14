@@ -39,6 +39,7 @@ const HeroesList = () => {
 				dispatch(heroDeleted(id))
 			);
 		},
+		// eslint-disable-next-line
 		[request]
 	);
 

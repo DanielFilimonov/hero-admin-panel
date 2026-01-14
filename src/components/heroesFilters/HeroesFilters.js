@@ -1,4 +1,3 @@
-import { useHttp } from "../../hooks/http.hook";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import classNames from "classnames";
@@ -13,7 +12,6 @@ const HeroesFilters = () => {
 	);
 	const filters = selectAll(store.getState());
 	const dispatch = useDispatch();
-	const { request } = useHttp();
 
 	useEffect(() => {
 		dispatch(fetchFilters());

@@ -1,24 +1,5 @@
 {
-  "heroes": [
-    {
-      "id": "d7fa9b44-3174-49d6-929f-9286b3e9aad8",
-      "name": "sdsdsdsdsd",
-      "description": "2334",
-      "element": "wind"
-    },
-    {
-      "id": "3ce0b181-5826-4fd5-a58d-8e2ae9761a18",
-      "name": "sdsdsdsdsd",
-      "description": "wsd",
-      "element": "fire"
-    },
-    {
-      "id": "29c74161-4ed4-48ea-942b-b8bd5ef8fb89",
-      "name": "Dan",
-      "description": "fdffddf",
-      "element": "fire"
-    }
-  ],
+  "heroes": [],
   "filters": [
     {
       "id": "all",
